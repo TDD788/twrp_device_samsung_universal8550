@@ -18,7 +18,7 @@ DEVICE := b5q
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/zImage
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/$(DEVICE)/prebuilt/dtbo
-BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/$(DEVICE)/prebuilt/dtb
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/$(DEVICE)/prebuilt/dtb
 
 # Recovery
 include $(DEVICE_PATH)/BoardConfig.mk
